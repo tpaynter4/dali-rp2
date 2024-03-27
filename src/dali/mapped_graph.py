@@ -47,6 +47,9 @@ _EXCHANGE_SPECIFIC_ALIASES = {
         Alias(from_asset="MBTC", to_asset="BTC"): RP2Decimal("0.001"),
         Alias(from_asset="METH", to_asset="ETH"): RP2Decimal("0.001"),
     },
+    "Binance US": {
+        Alias(from_asset="USD4", to_asset="USD"): RP2Decimal("1"),
+    }
 }
 
 _UNIVERSAL: str = "UNIVERSAL"
